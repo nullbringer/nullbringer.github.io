@@ -403,7 +403,14 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 	    border: 3px solid #fff;
 	    color: #fff;
 	}
+
+	.social-icons {
+		margin: 10px 0 0 10px;
+	}
 	
+	.social-icons:hover {
+		color:#AAA;
+	}
 	
 /* Floats
 -------------------------*/

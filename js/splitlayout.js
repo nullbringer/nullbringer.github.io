@@ -45,10 +45,10 @@
 			classie.add( splitlayout, 'open-left' );
 		} );
 
-		rightSide.querySelector( 'div.intro-content' ).addEventListener( eventtype, function( ev ) {
-			reset();
-			classie.add( splitlayout, 'open-right' );
-		} );
+		// rightSide.querySelector( 'div.intro-content' ).addEventListener( eventtype, function( ev ) {
+		// 	reset();
+		// 	classie.add( splitlayout, 'open-right' );
+		// } );
 
 		// back to intro
 		// after transition ends:
