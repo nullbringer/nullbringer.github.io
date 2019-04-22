@@ -1,0 +1,66 @@
+
+{
+ "name": "flare",
+ "children": [
+  {
+   "name": "key1",
+   "children": [
+    {"name": "live", "size": 7552}
+   ]
+  },
+    {
+   "name": "key2",
+   "children": [
+    {"name": "amazon", "size": 6626}
+   ]
+  },
+    {
+   "name": "key3",
+   "children": [
+    {"name": "twitch", "size": 5366}
+   ]
+  },
+    {
+   "name": "key4",
+   "children": [
+    {"name": "stream", "size": 4038}
+   ]
+  },
+    {
+   "name": "key5",
+   "children": [
+    {"name": "check", "size": 2451}
+   ]
+  },
+    {
+   "name": "key6",
+   "children": [
+    {"name": "play", "size": 2181}
+   ]
+  },
+    {
+   "name": "key7",
+   "children": [
+    {"name": "book", "size": 1973}
+   ]
+  },
+    {
+   "name": "key8",
+   "children": [
+    {"name": "time", "size": 1640}
+   ]
+  },
+      {
+   "name": "key8",
+   "children": [
+    {"name": "game", "size": 1323}
+   ]
+  },
+      {
+   "name": "key8",
+   "children": [
+    {"name": "love", "size": 1247}
+   ]
+  }
+ ]
+}

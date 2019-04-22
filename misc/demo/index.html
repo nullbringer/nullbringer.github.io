@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Data Intensive Computing - Amlan / Atrayee</title>
+
+	<!-- Global stylesheets -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+	<link href="../../../../global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/bootstrap_limitless.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/layout.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/components.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/colors.min.css" rel="stylesheet" type="text/css">
+	<!-- /global stylesheets -->
+
+	<!-- Core JS files -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/js/blockui.min.js"></script>
+	<script src="assets/js/ripple.min.js"></script>
+	<!-- /core JS files -->
+
+	<!-- D3 library -->
+
+	<!-- Load library -->
+	<script src="assets/js/d3.min.js"></script>
+
+	<!-- Load tooltip -->
+	<script src="assets/js/d3_tooltip.js"></script>
+	<script src="assets/js/tree_radial.js"></script>
+	<script src="assets/js/widgets_stats.js"></script>
+
+	<!-- Theme JS files -->
+	<script src="assets/js/app.js"></script>
+	<!-- /theme JS files -->
+
+	<style>
+		
+
+
+.d3-line-medium {
+    stroke-width: 1.5px;
+}
+
+.d3-line {
+    fill: none;
+}
+
+.d3-line-circle-medium {
+    stroke-width: 1.5px;
+}
+
+.d3-line-circle {
+    fill: none;
+    cursor: pointer;
+}
+
+	</style>
+
+</head>
+
+<body class="navbar-top">
+
+	<!-- Main navbar -->
+	<div class="navbar navbar-expand-md navbar-light fixed-top">
+
+		<!-- Header with logos -->
+		<div class="navbar-header navbar-dark d-none d-md-flex align-items-md-center">
+			<div class="navbar-brand navbar-brand-md">
+			</div>
+			
+			<div class="navbar-brand navbar-brand-xs">
+				<a href="../full/index.html" class="d-inline-block">
+					<img src="../../../../global_assets/images/logo_icon_light.png" alt="">
+				</a>
+			</div>
+		</div>
+		<!-- /header with logos -->
+	
+
+		<!-- Mobile controls -->
+		<div class="d-flex flex-1 d-md-none">
+			<div class="navbar-brand mr-auto">
+				<a href="../full/index.html" class="d-inline-block">
+					<img src="../../../../global_assets/images/logo_dark.png" alt="">
+				</a>
+			</div>	
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-mobile">
+				<i class="icon-tree5"></i>
+			</button>
+
+			<button class="navbar-toggler sidebar-mobile-main-toggle" type="button">
+				<i class="icon-paragraph-justify3"></i>
+			</button>
+		</div>
+		<!-- /mobile controls -->
+
+
+		<!-- Navbar content -->
+		<div class="collapse navbar-collapse" id="navbar-mobile">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a href="#" class="navbar-nav-link sidebar-control sidebar-main-toggle d-none d-md-block">
+						<i class="icon-paragraph-justify3"></i>
+					</a>
+				</li>
+
+			
+			</ul>
+
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					
+
+					<button type="button" class="btn btn-success btn-labeled btn-labeled-left btn-sm"><b><i class="icon-book"></i></b> Documentation</button>
+
+
+
+				</li>
+
+			</ul>
+		</div>
+		<!-- /navbar content -->
+
+	</div>
+	<!-- /main navbar -->
+
+
+	<!-- Page content -->
+	<div class="page-content">
+
+		<!-- Main sidebar -->
+		<div class="sidebar sidebar-dark sidebar-main sidebar-fixed sidebar-expand-md">
+
+			<!-- Sidebar mobile toggler -->
+			<div class="sidebar-mobile-toggler text-center">
+				<a href="#" class="sidebar-mobile-main-toggle">
+					<i class="icon-arrow-left8"></i>
+				</a>
+				Navigation
+				<a href="#" class="sidebar-mobile-expand">
+					<i class="icon-screen-full"></i>
+					<i class="icon-screen-normal"></i>
+				</a>
+			</div>
+			<!-- /sidebar mobile toggler -->
+
+
+			<!-- Sidebar content -->
+			<div class="sidebar-content">
+
+				<!-- User menu -->
+				<div class="sidebar-user-material">
+					<div class="sidebar-user-material-body">
+						<div class="card-body text-center">
+
+							<a href="#">
+								<img src="../../../../global_assets/images/ub.png" class="img-fluid rounded-circle shadow-1 mb-3" width="80" height="80" alt="">
+							</a>
+							<h6 class="mb-0 text-white text-shadow-dark">University at Buffalo</h6>
+							<span class="font-size-sm text-white text-shadow-dark">New York, USA</span>
+						</div>
+													
+						<div class="sidebar-user-material-footer">
+							<a href="#user-nav" class="d-flex justify-content-between align-items-center text-shadow-dark dropdown-toggle" data-toggle="collapse"><span>Navigation</span></a>
+						</div>
+					</div>
+
+				
+				</div>
+				<!-- /user menu -->
+
+
+				<!-- Main navigation -->
+				<div class="card card-sidebar-mobile">
+					<ul class="nav nav-sidebar" data-nav-type="accordion">
+
+						<!-- Main -->
+						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Main</div> <i class="icon-menu" title="Main"></i></li>
+						<li class="nav-item">
+							<a href="index.html" class="nav-link active">
+								<i class="icon-home4"></i>
+								<span>Dashboard</span>
+							</a>
+						</li>
+						<li class="nav-item nav-item-submenu">
+							<a href="#" class="nav-link"><i class="icon-chart"></i> <span>Visualization</span></a>
+
+							<ul class="nav nav-group-sub" data-submenu-title="Companies">
+								<li class="nav-item"><a href="all_companies.html" class="nav-link">All Companies</a></li>
+								<li class="nav-item"><a href="amazon.html" class="nav-link">Amazon</a></li>
+								
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a href="demo.html" class="nav-link">
+								<i class="icon-video-camera"></i>
+								<span>Demo</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="../full/changelog.html" class="nav-link">
+								<i class="icon-list-unordered"></i>
+								<span>Documentation</span>
+								<span class="badge bg-blue-400 align-self-center ml-auto">1.2</span>
+							</a>
+						</li>
+						<!-- /main -->
+
+					</ul>
+				</div>
+				<!-- /main navigation -->
+
+			</div>
+			<!-- /sidebar content -->
+			
+		</div>
+		<!-- /main sidebar -->
+
+
+		<!-- Main content -->
+		<div class="content-wrapper">
+
+			<!-- Page header -->
+			<div class="page-header">
+				<div class="page-header-content header-elements-md-inline">
+					<div class="page-title d-flex">
+						<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold">Dashboard</span></h4>
+						<a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
+					</div>
+
+					<div class="header-elements d-none text-center text-md-left mb-3 mb-md-0">
+
+						<div class="d-flex justify-content-center">
+							<img src="../../../../global_assets/images/UB_Horizontal_SUNY_Small.png" height="25" alt="">
+										
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			<!-- /page header -->
+
+
+			<!-- Content area -->
+			<div class="content pt-0">
+				<div class="row">
+					<div class="col-xl-6">
+						<div class="row">
+
+							<div class="col-sm-6 col-xl-4">
+
+								<!-- Sparklines in colored card -->
+								<div class="card bg-success-400 has-bg-image">
+									<div class="card-body">
+										<div class="d-flex">
+											<h3 class="font-weight-semibold mb-0">600</h3>
+											
+					                	</div>
+					                	
+					                	<div>
+											Articles Collected
+											<div class="font-size-sm opacity-75">http://commoncrawl.org</div>
+										</div>
+									</div>
+
+									<div id="sparklines_color"></div>
+								</div>
+								<!-- /sparklines in colored card -->
+
+							</div>
+
+						<div class="col-sm-6 col-xl-4">
+
+							<!-- Bar chart in colored card -->
+							<div class="card bg-danger-400 has-bg-image">
+								<div class="card-body">
+									<div class="d-flex">
+										<h3 class="font-weight-semibold mb-0">1,500</h3>
+				                	</div>
+				                	
+				                	<div>
+										Articles Collected
+										<div class="font-size-sm opacity-75">https://nytimes.com</div>
+									</div>
+								</div>
+
+								<div class="container-fluid">
+									<div id="chart_bar_color"></div>
+								</div>
+							</div>
+							<!-- /bar chart in colored card -->
+
+						</div>
+
+						<div class="col-sm-6 col-xl-4">
+
+							<!-- Line chart in colored card -->
+							<div class="card bg-blue-400 has-bg-image">
+								<div class="card-body">
+									<div class="d-flex">
+										<h3 class="font-weight-semibold mb-0">150,000</h3>
+
+				                	</div>
+				                	
+				                	<div>
+										Tweets Collected
+										<div class="font-size-sm opacity-75">http://twitter.com</div>
+									</div>
+								</div>
+
+								<div id="line_chart_color"></div>
+							</div>
+							<!-- /line chart in colored card -->
+
+						</div>
+
+					
+
+					</div>
+
+
+						<!-- Simple inline block with icon and button -->
+						<div class="card card-body bg-pink-400" style="background-image: url(../../../../global_assets/images/backgrounds/panel_bg.png);">
+							<div class="media align-items-center align-items-md-start flex-column flex-md-row">
+								<a href="#" class="text-white mr-md-3 mb-3 mb-md-0">
+									<i class="icon-question7 text-white-400 border-white-400 border-2 rounded-round p-2"></i>
+								</a>
+
+								<div class="media-body text-center text-md-left">
+									<h6 class="media-title font-weight-semibold">How did we process data?</h6>
+									
+									We have extensively documented the whole process, starting from data collection, infrastructure setup, stemming and counting using MapReduce, visualization, and observation. View 'Documentation' for details.
+								</div>
+
+							</div>
+						</div>
+						<!-- /simple inline block with icon and button -->
+
+
+				
+					</div>
+					<div class="col-xl-6">
+							
+								<!-- Top placement -->
+								<div class="card">
+									<div class="embed-responsive embed-responsive-16by9 card-img-top">
+										<iframe class="embed-responsive-item" src="https://player.vimeo.com/video/331701920?title=0&byline=0&portrait=0" allowfullscreen frameborder="0" mozallowfullscreen></iframe>
+									</div>
+
+								</div>
+								<!-- /top placement -->
+
+					</div>
+
+
+		</div>
+
+					<!-- Radial tree layout -->
+
+			<div class="row">
+				<div class="col-md-12">
+					<div class="card">
+						<div class="card-header header-elements-inline">
+							<h5 class="card-title">Radial Tree of Keywords</h5>
+						</div>
+
+						<div class="card-body">
+
+							<div class="chart-container has-scroll">
+								<div class="chart svg-center" id="d3-tree-radial"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+				<!-- /radial tree layout -->
+
+
+
+			</div>
+			<!-- /content area -->
+
+
+			<!-- Footer -->
+			<div class="navbar navbar-expand-lg navbar-light">
+				<div class="text-center d-lg-none w-100">
+					<button type="button" class="navbar-toggler dropdown-toggle" data-toggle="collapse" data-target="#navbar-footer">
+						<i class="icon-unfold mr-2"></i>
+						Footer
+					</button>
+				</div>
+
+				<div class="navbar-collapse collapse" id="navbar-footer">
+					<span class="navbar-text">
+						&copy; 2019. <a href="https://cse.buffalo.edu/~bina/cse487/spring2019/">Data Intensive Computing Lab 2</a> by <a href="https://github.com/urbangeek" target="_blank">Amlan Gupta</a> &amp; <a href="https://github.com/AtrayeeNag" target="_blank">Atrayee Nag</a>
+					</span>
+
+				</div>
+			</div>
+			<!-- /footer -->
+
+		</div>
+		<!-- /main content -->
+
+	</div>
+	<!-- /page content -->
+
+</body>
+</html>

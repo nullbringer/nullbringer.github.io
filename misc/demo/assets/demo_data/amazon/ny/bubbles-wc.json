@@ -1,0 +1,66 @@
+
+{
+ "name": "flare",
+ "children": [
+  {
+   "name": "key1",
+   "children": [
+    {"name": "company", "size": 1033}
+   ]
+  },
+    {
+   "name": "key2",
+   "children": [
+    {"name": "amazon", "size": 957}
+   ]
+  },
+    {
+   "name": "key3",
+   "children": [
+    {"name": "time", "size": 891}
+   ]
+  },
+    {
+   "name": "key4",
+   "children": [
+    {"name": "york", "size": 861}
+   ]
+  },
+    {
+   "name": "key5",
+   "children": [
+    {"name": "people", "size": 579}
+   ]
+  },
+    {
+   "name": "key6",
+   "children": [
+    {"name": "trump", "size": 492}
+   ]
+  },
+    {
+   "name": "key7",
+   "children": [
+    {"name": "city", "size": 490}
+   ]
+  },
+    {
+   "name": "key8",
+   "children": [
+    {"name": "change", "size": 460}
+   ]
+  },
+      {
+   "name": "key8",
+   "children": [
+    {"name": "president", "size": 401}
+   ]
+  },
+      {
+   "name": "key8",
+   "children": [
+    {"name": "business", "size": 391}
+   ]
+  }
+ ]
+}

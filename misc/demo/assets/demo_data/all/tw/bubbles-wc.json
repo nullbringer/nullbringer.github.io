@@ -1,0 +1,95 @@
+{
+    "name": "flare",
+    "children": [
+        {
+            "name": "key1",
+            "children": [
+                {
+                    "name": "uber",
+                    "size": 27510
+                }
+            ]
+        },
+        {
+            "name": "key2",
+            "children": [
+                {
+                    "name": "live",
+                    "size": 11742
+                }
+            ]
+        },
+        {
+            "name": "key3",
+            "children": [
+                {
+                    "name": "iphone",
+                    "size": 9868
+                }
+            ]
+        },
+        {
+            "name": "key4",
+            "children": [
+                {
+                    "name": "amazon",
+                    "size": 7497
+                }
+            ]
+        },
+        {
+            "name": "key5",
+            "children": [
+                {
+                    "name": "time",
+                    "size": 7077
+                }
+            ]
+        },
+        {
+            "name": "key6",
+            "children": [
+                {
+                    "name": "driver",
+                    "size": 6797
+                }
+            ]
+        },
+        {
+            "name": "key7",
+            "children": [
+                {
+                    "name": "check",
+                    "size": 6707
+                }
+            ]
+        },
+        {
+            "name": "key8",
+            "children": [
+                {
+                    "name": "watch",
+                    "size": 5881
+                }
+            ]
+        },
+        {
+            "name": "key9",
+            "children": [
+                {
+                    "name": "play",
+                    "size": 5691
+                }
+            ]
+        },
+        {
+            "name": "key10",
+            "children": [
+                {
+                    "name": "love",
+                    "size": 5671
+                }
+            ]
+        }
+    ]
+}

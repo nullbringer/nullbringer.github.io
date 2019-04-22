@@ -1,0 +1,66 @@
+
+{
+ "name": "flare",
+ "children": [
+  {
+   "name": "key1",
+   "children": [
+    {"name": "company", "size": 530}
+   ]
+  },
+    {
+   "name": "key2",
+   "children": [
+    {"name": "amazon", "size": 525}
+   ]
+  },
+    {
+   "name": "key3",
+   "children": [
+    {"name": "people", "size": 333}
+   ]
+  },
+    {
+   "name": "key4",
+   "children": [
+    {"name": "service", "size": 261}
+   ]
+  },
+    {
+   "name": "key5",
+   "children": [
+    {"name": "google", "size": 216}
+   ]
+  },
+    {
+   "name": "key6",
+   "children": [
+    {"name": "time", "size": 193}
+   ]
+  },
+    {
+   "name": "key7",
+   "children": [
+    {"name": "content", "size": 181}
+   ]
+  },
+    {
+   "name": "key8",
+   "children": [
+    {"name": "million", "size": 167}
+   ]
+  },
+      {
+   "name": "key8",
+   "children": [
+    {"name": "product", "size": 166}
+   ]
+  },
+      {
+   "name": "key8",
+   "children": [
+    {"name": "build", "size": 166}
+   ]
+  }
+ ]
+}

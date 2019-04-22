@@ -1,0 +1,95 @@
+{
+    "name": "flare",
+    "children": [
+        {
+            "name": "key1",
+            "children": [
+                {
+                    "name": "company",
+                    "size": 2755
+                }
+            ]
+        },
+        {
+            "name": "key2",
+            "children": [
+                {
+                    "name": "facebook",
+                    "size": 1756
+                }
+            ]
+        },
+        {
+            "name": "key3",
+            "children": [
+                {
+                    "name": "people",
+                    "size": 1579
+                }
+            ]
+        },
+        {
+            "name": "key4",
+            "children": [
+                {
+                    "name": "app",
+                    "size": 1481
+                }
+            ]
+        },
+        {
+            "name": "key5",
+            "children": [
+                {
+                    "name": "user",
+                    "size": 1164
+                }
+            ]
+        },
+        {
+            "name": "key6",
+            "children": [
+                {
+                    "name": "google",
+                    "size": 1089
+                }
+            ]
+        },
+        {
+            "name": "key7",
+            "children": [
+                {
+                    "name": "time",
+                    "size": 1067
+                }
+            ]
+        },
+        {
+            "name": "key8",
+            "children": [
+                {
+                    "name": "service",
+                    "size": 1051
+                }
+            ]
+        },
+        {
+            "name": "key9",
+            "children": [
+                {
+                    "name": "million",
+                    "size": 1019
+                }
+            ]
+        },
+        {
+            "name": "key10",
+            "children": [
+                {
+                    "name": "apple",
+                    "size": 985
+                }
+            ]
+        }
+    ]
+}

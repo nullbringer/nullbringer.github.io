@@ -1,0 +1,95 @@
+{
+    "name": "flare",
+    "children": [
+        {
+            "name": "key1",
+            "children": [
+                {
+                    "name": "company",
+                    "size": 4811
+                }
+            ]
+        },
+        {
+            "name": "key2",
+            "children": [
+                {
+                    "name": "time",
+                    "size": 4578
+                }
+            ]
+        },
+        {
+            "name": "key3",
+            "children": [
+                {
+                    "name": "york",
+                    "size": 3302
+                }
+            ]
+        },
+        {
+            "name": "key4",
+            "children": [
+                {
+                    "name": "people",
+                    "size": 3116
+                }
+            ]
+        },
+        {
+            "name": "key5",
+            "children": [
+                {
+                    "name": "trump",
+                    "size": 2299
+                }
+            ]
+        },
+        {
+            "name": "key6",
+            "children": [
+                {
+                    "name": "president",
+                    "size": 1821
+                }
+            ]
+        },
+        {
+            "name": "key7",
+            "children": [
+                {
+                    "name": "call",
+                    "size": 1795
+                }
+            ]
+        },
+        {
+            "name": "key8",
+            "children": [
+                {
+                    "name": "day",
+                    "size": 1770
+                }
+            ]
+        },
+        {
+            "name": "key9",
+            "children": [
+                {
+                    "name": "amazon",
+                    "size": 1724
+                }
+            ]
+        },
+        {
+            "name": "key10",
+            "children": [
+                {
+                    "name": "city",
+                    "size": 1636
+                }
+            ]
+        }
+    ]
+}
