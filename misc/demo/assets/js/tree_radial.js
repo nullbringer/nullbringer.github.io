@@ -71,7 +71,7 @@ var D3TreeRadial = function() {
             // Load data
             // ------------------------------
 
-            d3.json("/../assets/demo_data/tree_data_radial.json", function(error, root) {
+            d3.json("./../demo/assets/demo_data/tree_data_radial.json", function(error, root) {
 
                 var nodes = tree.nodes(root),
                     links = tree.links(nodes);

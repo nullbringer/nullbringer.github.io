@@ -85,7 +85,7 @@ var D3Bubbles = function() {
 
 
 
-            d3.json("../../../../assets/demo_data/"+file+".json", function(error, root) {
+            d3.json("./../demo/assets/demo_data/"+file+".json", function(error, root) {
 
 
                 //

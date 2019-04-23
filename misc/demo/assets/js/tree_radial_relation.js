@@ -21,7 +21,7 @@ function D3TreeRadialRelation(file, id) {
     var link = svg.append("g").selectAll(".link"),
         node = svg.append("g").selectAll(".node");
 
-    d3version4.json("../../../assets/demo_data/"+file, function(error, classes) {
+    d3version4.json("./../demo/assets/demo_data/"+file, function(error, classes) {
       if (error) throw error;
 
       var root = packageHierarchy(classes)
